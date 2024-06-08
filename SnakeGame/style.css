@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px;
+}
+
+#canvas {
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: 30%;
+}
+
+#dragon1 {
+    background-image: url("Images/dragon1.gif");
+
+    top: 15%;
+    left: 62%;
+}
+
+#dragon2 {
+    background-image: url("Images/dragon2.gif");
+    transform: rotateY(180deg);
+    top: 15%;
+    left: 8%;
+
+
+}
+
+
+.dragon {
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    display: none
+}
